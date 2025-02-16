@@ -38,7 +38,7 @@ spec:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: myapp
+  name: nginx-cm
 data:
   nginx.conf: |
     server {
